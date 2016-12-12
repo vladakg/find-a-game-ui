@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Find A Game</title>
+</head>
+<body ng-app="mainApp">
+<!--
+  Your HTML content here
+-->
+
+<div class="jumbotron text-center">
+    <h1>Find a Game</h1>
+    <p>Here you can find nearby games</p>
+</div>
+
+<div class="container-fluid map-container">
+    <div class="row" id="map" ng-controller="MapController"></div>
+</div>
+
+<!-- Google Map Api -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7U-P8Rn4Jb0uLok3mP2RhuvSP1QsRGQg"></script>
+
+<!-- Bootstrap -->
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Angular Material requires Angular.js Libraries -->
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+<!-- Angular Material Library -->
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+<!-- Your application files  -->
+<script src="app/app.js"></script>
+<script src="app/map/MapController.js"></script>
+
+</body>
+</html>
