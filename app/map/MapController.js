@@ -8,7 +8,6 @@
     MapController.$inject = ['$http'];
 
     function MapController($http) {
-
         var vm = this;
         vm.geoLocation = {};
         vm.getLocation = getLocation;
