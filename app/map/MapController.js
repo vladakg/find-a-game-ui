@@ -8,6 +8,7 @@
     MapController.$inject = ['$http'];
 
     function MapController($http) {
+
         var vm = this;
         vm.geoLocation = {};
         vm.getLocation = getLocation;
@@ -17,7 +18,7 @@
         vm.markers = [];
         vm.getMarkers = getMarkers;
 
-        vm.getMarkers()
+        vm.getMarkers();
 
         vm.getLocation();
 
